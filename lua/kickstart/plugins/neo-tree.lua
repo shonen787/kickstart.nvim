@@ -9,15 +9,36 @@ return {
     'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
     'MunifTanjim/nui.nvim',
   },
+
   lazy = false,
   keys = {
-    { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<C-n>', ':Neotree filesystem reveal left<CR>', mode = 'n', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    event_handlers = {
+      {
+        event = 'file_opened',
+        handler = function()
+          require('neo-tree.command').execute { action = 'close' }
+        end,
+      },
+      --      {
+      --        event = 'neo_tree_buffer_enter',
+      --        handler = function()
+      --          vim.cmd 'hightlight! Cursor blend=100'
+      --        end,
+      --      },
+    },
     filesystem = {
+      filtered_items = {
+        visible = true,
+        hide_dotfiles = false,
+        hide_gitignored = true,
+      },
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['<CR>'] = 'open_tabnew',
         },
       },
     },
