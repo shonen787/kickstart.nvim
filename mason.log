@@ -1,0 +1,62 @@
+[INFO  12/16/2025 10:56:05 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/16/2025 10:56:05 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=stylua) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/16/2025 10:56:06 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=stylua)
+[INFO  12/16/2025 10:56:10 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=lua-language-server)
+[ERROR 12/16/2025 10:57:07 PM] ...al/nvim-data/lazy/mason.nvim/lua/mason-registry/init.lua:31: Cannot find package "\"all\"".
+[ERROR 12/16/2025 11:12:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="unzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:12:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="wget", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:12:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="gzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:12:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="pwsh", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:12:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="7z", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="luarocks", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="ruby", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="gem", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="composer", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="php", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="javac", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="java", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:13:00 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="julia", err="ENOENT: no such file or directory"
+[INFO  12/16/2025 11:18:32 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=gopls) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  12/16/2025 11:18:35 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=gopls)
+[INFO  12/16/2025 11:18:43 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=tree-sitter-cli) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR 12/16/2025 11:18:43 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="gzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:18:43 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="7z", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:18:43 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="peazip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:18:43 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="wzunzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:18:43 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="winrar", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:18:43 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=tree-sitter-cli) error=spawn: winrar failed with exit code - and signal -. Could not find executable "gzip" in PATH.
+Could not find executable "7z" in PATH.
+Could not find executable "peazip" in PATH.
+Could not find executable "wzunzip" in PATH.
+Could not find executable "winrar" in PATH.
+
+[INFO  12/16/2025 11:21:15 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=tree-sitter-cli) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR 12/16/2025 11:21:15 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="gzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:21:16 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=tree-sitter-cli) error='Tried to link bin "tree-sitter" to non-existent target "tree-sitter-windows-x64.exe".'
+[INFO  12/16/2025 11:22:59 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=tree-sitter-cli) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR 12/16/2025 11:22:59 PM] ...cal/nvim-data/lazy/mason.nvim/lua/mason-core/process.lua:226: Failed to spawn process. cmd="gzip", err="ENOENT: no such file or directory"
+[ERROR 12/16/2025 11:22:59 PM] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=tree-sitter-cli) error='Tried to link bin "tree-sitter" to non-existent target "tree-sitter-windows-x64.exe".'

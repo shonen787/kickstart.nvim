@@ -1,0 +1,2 @@
+[START][2025-12-16 23:26:15] LSP logging initiated
+[ERROR][2025-12-16 23:26:15] ...lsp/handlers.lua:562	"2025/12/16 23:26:15 signature help failed: cannot get type for Fun *ast.Ident (downloadFIle)\n\tposition=36:24\n"
